@@ -353,15 +353,15 @@ pathway_errorbar <-
         axis.ticks.x = ggplot2::element_line(size = 0.5),
         panel.grid.major.y = ggplot2::element_blank(),
         panel.grid.major.x = ggplot2::element_blank(),
-        axis.text = ggplot2::element_text(size = 10, color = "black"), # nolint
+        axis.text = ggplot2::element_text(size = 20, color = "black"), # nolint
         axis.text.x = ggplot2::element_text(margin = ggplot2::margin(r = 0)), # nolint
         axis.text.y = ggplot2::element_text(
-          size = 10,
+          size = 20,
           color = "black",
           margin = ggplot2::margin(b = 6)
         ),
         axis.title.x =  ggplot2::element_text(
-          size = 10,
+          size = 20,
           color = "black",
           hjust = 0.5
         ),
@@ -369,7 +369,7 @@ pathway_errorbar <-
         legend.key.size = ggplot2::unit(0.1, "cm"),
         legend.direction = "vertical",
         legend.justification = "left",
-        legend.text = ggplot2::element_text(size = 8, face = "bold"),
+        legend.text = ggplot2::element_text(size = 20, face = "bold"),
         legend.box.just = "right",
         plot.margin = ggplot2::margin(0, 0.5, 0.5, 0, unit = "cm")
       ) + ggplot2::coord_cartesian(clip = "off")
@@ -446,15 +446,15 @@ pathway_errorbar <-
         axis.ticks.x = ggplot2::element_line(size = 0.5),
         panel.grid.major.y = ggplot2::element_blank(),
         panel.grid.major.x = ggplot2::element_blank(),
-        axis.text = ggplot2::element_text(size = 10, color = "black"),
+        axis.text = ggplot2::element_text(size = 20, color = "black"),
         axis.text.y = ggplot2::element_blank(),
         axis.text.x = ggplot2::element_text(
-          size = 10,
+          size = 20,
           color = "black",
           margin = ggplot2::margin(b = 6)
         ),
         axis.title.x =  ggplot2::element_text(
-          size = 11,
+          size = 21,
           color = "black",
           hjust = 0.5
         ),
@@ -526,7 +526,7 @@ pathway_errorbar <-
         axis.text = ggplot2::element_blank(),
         plot.margin = ggplot2::unit(c(0, 0.2, 0, 0), "cm"),
         axis.title.y =  ggplot2::element_text(
-          size = 11,
+          size = 20,
           color = "black",
           vjust = 0
         ),
