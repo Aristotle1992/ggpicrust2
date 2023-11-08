@@ -356,7 +356,7 @@ pathway_errorbar <-
         axis.text = ggplot2::element_text(size = 30, color = "black"), # nolint
         axis.text.x = ggplot2::element_text(margin = ggplot2::margin(r = 0)), # nolint
         axis.text.y = ggplot2::element_text(
-          size = 30,
+          size = 50,
           color = "black",
           margin = ggplot2::margin(b = 6)
         ),
@@ -479,7 +479,7 @@ pathway_errorbar <-
       pathway_class_annotation <-
         pathway_class_plot_df %>% ggplot2::ggplot(ggplot2::aes(nonsense, pathway_class_y)) + ggplot2::geom_text(
           ggplot2::aes(nonsense, pathway_class_y, label = pathway_class),
-          size = 12,
+          size = 20,
           color = "black",
           fontface = "bold",
           family = "sans"
