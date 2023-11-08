@@ -356,7 +356,7 @@ pathway_errorbar <-
         axis.text = ggplot2::element_text(size = 30, color = "black"), # nolint
         axis.text.x = ggplot2::element_text(margin = ggplot2::margin(r = 0)), # nolint
         axis.text.y = ggplot2::element_text(
-          size = 40,
+          size = 30,
           color = "black",
           margin = ggplot2::margin(b = 6)
         ),
