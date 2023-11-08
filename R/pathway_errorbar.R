@@ -479,7 +479,7 @@ pathway_errorbar <-
       pathway_class_annotation <-
         pathway_class_plot_df %>% ggplot2::ggplot(ggplot2::aes(nonsense, pathway_class_y)) + ggplot2::geom_text(
           ggplot2::aes(nonsense, pathway_class_y, label = pathway_class),
-          size = 12,
+          size = 10,
           color = "black",
           fontface = "bold",
           family = "sans"
@@ -509,7 +509,7 @@ pathway_errorbar <-
       ggplot2::ggplot(ggplot2::aes(group_nonsense, p_adjust)) +
       ggplot2::geom_text(
         ggplot2::aes(group_nonsense, unique, label = p_adjust),
-        size = 15,
+        size = 10,
         color = "black",
         fontface = "bold",
         family = "sans"
