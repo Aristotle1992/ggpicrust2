@@ -446,7 +446,7 @@ pathway_errorbar <-
         axis.ticks.x = ggplot2::element_line(size = 0.5),
         panel.grid.major.y = ggplot2::element_blank(),
         panel.grid.major.x = ggplot2::element_blank(),
-        axis.text = ggplot2::element_text(size = 15, color = "black"),
+        axis.text = ggplot2::element_text(size = 10, color = "black"),
         axis.text.y = ggplot2::element_blank(),
         axis.text.x = ggplot2::element_text(
           size = 30,
@@ -454,7 +454,7 @@ pathway_errorbar <-
           margin = ggplot2::margin(b = 6)
         ),
         axis.title.x =  ggplot2::element_text(
-          size = 31,
+          size = 30,
           color = "black",
           hjust = 0.5
         ),
@@ -479,7 +479,7 @@ pathway_errorbar <-
       pathway_class_annotation <-
         pathway_class_plot_df %>% ggplot2::ggplot(ggplot2::aes(nonsense, pathway_class_y)) + ggplot2::geom_text(
           ggplot2::aes(nonsense, pathway_class_y, label = pathway_class),
-          size = 5,
+          size = 20,
           color = "black",
           fontface = "bold",
           family = "sans"
@@ -509,7 +509,7 @@ pathway_errorbar <-
       ggplot2::ggplot(ggplot2::aes(group_nonsense, p_adjust)) +
       ggplot2::geom_text(
         ggplot2::aes(group_nonsense, unique, label = p_adjust),
-        size = 5,
+        size = 20,
         color = "black",
         fontface = "bold",
         family = "sans"
