@@ -353,10 +353,10 @@ pathway_errorbar <-
         axis.ticks.x = ggplot2::element_line(size = 0.5),
         panel.grid.major.y = ggplot2::element_blank(),
         panel.grid.major.x = ggplot2::element_blank(),
-        axis.text = ggplot2::element_text(size = 30, color = "black"), # nolint
+        axis.text = ggplot2::element_text(size = 40, color = "black"), # nolint
         axis.text.x = ggplot2::element_text(margin = ggplot2::margin(r = 0)), # nolint
         axis.text.y = ggplot2::element_text(
-          size = 50,
+          size = 40,
           color = "black",
           margin = ggplot2::margin(b = 6)
         ),
@@ -369,7 +369,7 @@ pathway_errorbar <-
         legend.key.size = ggplot2::unit(0.1, "cm"),
         legend.direction = "vertical",
         legend.justification = "left",
-        legend.text = ggplot2::element_text(size = 40, face = "bold"),
+        legend.text = ggplot2::element_text(size = 50, face = "bold"),
         legend.box.just = "right",
         plot.margin = ggplot2::margin(0, 0.5, 0.5, 0, unit = "cm")
       ) + ggplot2::coord_cartesian(clip = "off")
